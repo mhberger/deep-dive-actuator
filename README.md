@@ -1,8 +1,7 @@
 Simple grails project to demonstarate Spring Boot Actuator
 ==========================================================
 
-
-Build and rung the app using
+Build and run the app using
 
 ```
 ./gradlew clean assemble
@@ -10,7 +9,7 @@ cd build/libs/
 ./t4012_actuator-0.1.jar
 ```
 
-Then call on actuator/info
+Then call the actuator/info endpoint
 
 ```
 curl http://localhost:8080/actuator/info
